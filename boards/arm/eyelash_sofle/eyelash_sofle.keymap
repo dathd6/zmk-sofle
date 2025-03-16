@@ -66,9 +66,9 @@
             bindings = <
 &kp GRAVE   &kp LA(N1)       &kp LA(N2)      &kp LA(N3)       &kp LA(N4)       &kp LA(N5)        &kp UP_ARROW     &kp LA(N6)       &kp LA(N7)       &kp LA(N8)  &kp LA(N9) &kp F12           &kp BSLH
 &trans      &kp F1           &kp F2          &kp F3           &kp F4           &kp F5            &kp DOWN_ARROW   &kp LA(Y)        &kp END          &kp PG_DN   &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&trans      &kp LA(A)        &trans          &trans           &trans           &mkp MB5          &kp LEFT_ARROW   &kp LEFT         &kp DOWN           &kp UP    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LA(Z)        &kp LA(X)       &kp LA(C)        &kp LA(V)        &rgb_ug RGB_SPI   &kp RIGHT_ARROW  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans           &trans            &kp ENTER        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
