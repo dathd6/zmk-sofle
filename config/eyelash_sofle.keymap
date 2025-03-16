@@ -56,9 +56,9 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp LG(N1)       &kp LG(N2)      &kp LG(N3)       &kp LG(N4)      &kp LG(N5)     &kp UP_ARROW      &kp LG(N6)     &kp LG(N7)           &kp LG(N8)      &kp LG(N9)     &kp LG(N0)        &kp F12
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4      &kp DOWN_ARROW &kp HOME        &kp UP          &kp PG_UP      &kp END   &kp MINUS         &kp EQUAL
-&trans      &kp LG(A)        &trans          &trans           &kp LG(F)           &mkp MB5  &kp LEFT_ARROW     &kp LEFT     &kp DOWN         &kp RIGHT    &kp LG(L)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)  &rgb_ug RGB_SPI    &kp RIGHT_ARROW    &kp LEFT     &kp DOWN         &kp UP    &kp RIGHT  &kp F12           &trans
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4      &kp DOWN_ARROW &kp HOME        &kp PG_DN          &kp PG_UP      &kp END   &kp MINUS         &kp EQUAL
+&trans      &kp LG(A)        &trans          &trans           &kp LG(F)           &mkp MB5  &kp LEFT_ARROW     &kp LEFT     &kp DOWN         &kp UP    &kp RIGHT &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)  &rgb_ug RGB_SPI    &kp RIGHT_ARROW    &kp LG(N)     &kp DOWN         &kp UP    &kp LG(L)  &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans       &kp ENTER       &trans           &trans           &trans      &trans     &trans
             >;
 
