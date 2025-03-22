@@ -43,7 +43,7 @@
         layer0 {
             bindings = <
 &kp ESC    &kp 1      &kp 2       &kp 3         &kp 4               &kp 5         &mmv MOVE_RIGHT   &kp 6         &kp 7        &kp 8             &kp 9          &kp 0        &kp BACKSPACE
-&kp TAB    &kp Q      &kp W       &kp E         &kp R               &kp T         &mmv MOVE_UP      &kp Y         &kp U        &kp I             &kp O          &kp P        &kp KC_BSLS
+&kp TAB    &kp Q      &kp W       &kp E         &kp R               &kp T         &mmv MOVE_UP      &kp Y         &kp U        &kp I             &kp O          &kp P        &kp BSLS
 &kp LCTRL  &kp A      &kp S       &kp D         &kp F               &kp G         &mmv MOVE_DOWN    &kp H         &kp J        &kp K             &kp L          &kp SEMI     &kp APOS
 &kp LCTRL  &kp Z      &kp X       &kp C         &kp V               &kp B         &mmv MOVE_LEFT    &kp N         &kp M        &kp COMMA         &kp DOT        &kp FSLH     &kp ENTER
 &trans     &trans     &kp LCTRL   &kp TAB       &lt 2 BACKSPACE     &lt 1 SPACE   &mp LCLK          &kp LSHIFT    &lt 3 ENTER  &kp BACKSPACE   &kp TAB        &trans
