@@ -56,9 +56,9 @@
         layer_1 {
             bindings = <
 &kp GRAVE   &kp LG(N1)       &kp LG(N2)      &kp LG(N3)       &kp LG(N4)     &kp LG(N5)   &kp UP_ARROW      &kp LG(N6)    &kp LG(N7)     &kp LG(N8)             &kp LG(N9)     &kp LG(N0)        &kp F12
-&trans      &kp LG(Q)        &kp LG(W)       &kp LG(E)        &kp LG(R)      &kp LG(T)    &kp DOWN_ARROW    &kp MINUS      &kp EQUAL        &kp HOME              &kp END      &kp LG(T)         &kp LG(N)
-&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)      &kp LG(G)    &kp LEFT_ARROW    &kp SEMI      &kp APOS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)      &kp LG(B)    &kp RIGHT_ARROW   &kp COMMA     &kp DOT        &kp FSLH               &kp LG(L)      &kp F12           &trans
+&trans      &kp LG(Q)        &kp LG(W)       &kp LG(E)        &kp LG(R)      &kp LG(T)    &kp DOWN_ARROW    &kp MINUS     &kp MINUS      &kp EQUAL        &kp HOME              &kp END            &kp LG(N)
+&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)      &kp LG(G)    &kp LEFT_ARROW    &kp SEMI      &kp SEMI      &kp APOS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)      &kp LG(B)    &kp RIGHT_ARROW   &kp COMMA     &kp COMMA     &kp DOT        &kp FSLH                   &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans         &trans       &kp ENTER         &kp LA(SPACE) &trans         &trans                 &trans         &trans
             >;
 
@@ -72,16 +72,16 @@
 &trans  &kp LA(Q)  &trans      &kp LA(E)  &kp LA(R)  &kp LA(T)     &trans     &trans          &kp LC(U)   &kp LC(I)  &kp LC(O)  &kp LC(P)           &trans
 &trans  &kp LC(A)  &trans      &kp LC(D)  &kp LA(F)  &trans        &trans     &kp LA(H)       &kp LA(J)   &kp LA(K)  &kp LA(L)  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET
 &trans  &trans     &trans      &kp LG(C)  &trans     &trans        &trans     &kp LC(N)       &trans      &trans     &trans     &trans             &trans
-&trans  &trans     &trans      &trans     &trans     &trans        &trans     &kp LA(SPACE)   &kp DOWN    &kp UP     &kp RIGHT  &trans
+&trans  &trans     &trans      &trans     &trans     &trans        &trans     &kp LA(SPACE)   &kp LEFT    &kp DOWN     &kp UP  &kp RIGHT
             >;
         };
 
         layer_3 {
             bindings = <
 &trans     &kp LS(N1)      &kp LS(N2)        &kp LS(N3)      &kp LS(N4)      &kp LS(N5)      &mmv MOVE_UP     &kp LS(N6)  &kp LS(N7)  &kp LS(N8)      &kp LS(N9)  &kp LS(N0)      &kp LG(T)
-&trans     &mkp LCLK       &mmv MOVE_UP      &mkp RCLK       &trans   &trans          &mmv MOVE_DOWN   &kp UNDER   &kp PLUS    &kp HOME        &kp END     &kp DOWN   &kp UP
-&trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT &trans   &trans          &mmv MOVE_LEFT   &kp COLON   &kp DOUBLE_QUOTES     &kp LBRC        &kp RBRC   &kp LEFT    &kp RIGHT
-&trans     &trans          &trans            &trans          &trans          &trans          &mmv MOVE_RIGHT  &kp LT      &kp GT       &kp QUESTION   &trans      &trans      &trans
+&trans     &mkp LCLK       &mmv MOVE_UP      &mkp RCLK       &trans   &trans          &mmv MOVE_DOWN   &kp HOME   &kp UNDER   &kp PLUS    &kp HOME        &kp END  &kp UP
+&trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT &trans   &trans          &mmv MOVE_LEFT   &kp END   &kp COLON   &kp DOUBLE_QUOTES     &kp LBRC        &kp RBRC  &kp RIGHT
+&trans     &trans          &trans            &trans          &trans          &trans          &mmv MOVE_RIGHT  &kp LT      &kp LT      &kp GT       &kp QUESTION      &trans      &trans
 &trans     &trans          &trans            &trans          &trans          &trans          &mkp LCLK        &trans      &trans       &trans         &trans      &trans
             >;
 
