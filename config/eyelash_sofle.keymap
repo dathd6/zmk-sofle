@@ -57,7 +57,7 @@
             bindings = <
 &kp GRAVE   &kp LG(N1)       &kp LG(N2)      &kp LG(N3)       &kp LG(N4)     &kp LG(N5)   &kp UP_ARROW      &kp LG(N6)    &kp LG(N7)     &kp LG(N8)             &kp LG(N9)     &kp LG(N0)        &kp F12
 &trans      &kp LG(Q)        &kp LG(W)       &kp LG(E)        &kp LG(R)      &kp LG(T)    &kp DOWN_ARROW    &kp MINUS      &kp EQUAL        &kp HOME              &kp END      &kp LG(T)         &kp LG(N)
-&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)      &kp LG(G)    &kp LEFT_ARROW    &kp SEMI      &kp APOS       &kp RIGHT_BRACKET      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LG(A)        &kp LG(S)       &kp LG(D)        &kp LG(F)      &kp LG(G)    &kp LEFT_ARROW    &kp SEMI      &kp APOS       &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LG(Z)        &kp LG(X)       &kp LG(C)        &kp LG(V)      &kp LG(B)    &kp RIGHT_ARROW   &kp COMMA     &kp DOT        &kp FSLH               &kp LG(L)      &kp F12           &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans         &trans       &kp ENTER         &kp LA(SPACE) &trans         &trans                 &trans         &trans
             >;
