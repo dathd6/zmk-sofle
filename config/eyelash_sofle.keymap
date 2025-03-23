@@ -42,11 +42,11 @@
 
         layer0 {
             bindings = <
-&kp ESC    &kp N1     &kp N2      &kp N3        &kp N4              &kp N5        &mmv MOVE_RIGHT   &kp N6        &kp N7       &kp N8            &kp N9         &kp N0       &kp BACKSPACE
-&kp TAB    &kp Q      &kp W       &kp E         &kp R               &kp T         &mmv MOVE_UP      &kp Y         &kp U        &kp I             &kp O          &kp P        &kp BSLH
-&kp LGUI   &kp A      &kp S       &kp D         &kp F               &kp G         &mmv MOVE_DOWN    &kp H         &kp J        &kp K             &kp L          &kp SEMI     &kp APOS
-&kp LCTRL  &kp Z      &kp X       &kp C         &kp V               &kp B         &mmv MOVE_LEFT    &kp N         &kp M        &kp COMMA         &kp DOT        &kp FSLH     &kp ENTER
-&trans     &trans     &kp LCTRL   &kp LGUI      &lt 2 TAB     &lt 1 SPACE   &mkp LCLK         &lt 3 BACKSPACE  &kp LSHFT  &kp ENTER     &kp TAB        &trans
+&kp ESC    &kp N1     &kp N2      &kp N3        &kp N4              &kp N5        &msc SCRL_UP   &kp N6        &kp N7       &kp N8            &kp N9         &kp N0       &kp BACKSPACE
+&kp TAB    &kp Q      &kp W       &kp E         &kp R               &kp T         &msc SCRL_DOWN      &kp Y         &kp U        &kp I             &kp O          &kp P        &kp BSLH
+&kp LGUI   &kp A      &kp S       &kp D         &kp F               &kp G         &mmv SCRL_LEFT    &kp H         &kp J        &kp K             &kp L          &kp SEMI     &kp APOS
+&kp LCTRL  &kp Z      &kp X       &kp C         &kp V               &kp B         &mmv SCROL_RIGHT    &kp N         &kp M        &kp COMMA         &kp DOT        &kp FSLH     &kp ENTER
+&trans     &trans     &kp LCTRL   &kp LGUI      &lt 2 TAB     &lt 1 SPACE         &mkp LCLK         &lt 3 BACKSPACE  &kp LSHFT  &kp ENTER     &kp TAB        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -79,8 +79,8 @@
         layer_3 {
             bindings = <
 &trans     &kp LS(N1)      &kp LS(N2)        &kp LS(N3)      &kp LS(N4)      &kp LS(N5)      &mmv MOVE_UP     &kp LS(N6)  &kp LS(N7)  &kp LS(N8)      &kp LS(N9)  &kp LS(N0)      &kp LG(T)
-&trans     &mkp LCLK       &mmv MOVE_UP      &mkp RCLK       &msc K_SCROLL_UP   &trans          &mmv MOVE_DOWN   &kp UNDER   &kp PLUS    &kp HOME        &kp END     &kp DOWN   &kp UP
-&trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT &msc K_SCROLL_DOWN   &trans          &mmv MOVE_LEFT   &kp COLON   &kp DOUBLE_QUOTES     &kp LBRC        &kp RBRC   &kp LEFT    &kp RIGHT
+&trans     &mkp LCLK       &mmv MOVE_UP      &mkp RCLK       &trans   &trans          &mmv MOVE_DOWN   &kp UNDER   &kp PLUS    &kp HOME        &kp END     &kp DOWN   &kp UP
+&trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_RIGHT &trans   &trans          &mmv MOVE_LEFT   &kp COLON   &kp DOUBLE_QUOTES     &kp LBRC        &kp RBRC   &kp LEFT    &kp RIGHT
 &trans     &trans          &trans            &trans          &trans          &trans          &mmv MOVE_RIGHT  &kp LT      &kp GT       &kp QUESTION   &trans      &trans      &trans
 &trans     &trans          &trans            &trans          &trans          &trans          &mkp LCLK        &trans      &trans       &trans         &trans      &trans
             >;
